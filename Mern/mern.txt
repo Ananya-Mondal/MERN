@@ -1,0 +1,39 @@
+mongodb+srv://mondaljnanesh:Mondal%40123@cluster0.ysjw96t.mongodb.net/
+mongodb+srv://mondaljnanesh:Mondal@123@cluster0.ysjw96t.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+mongodb+srv://mondaljnanesh:Mondal%40123@cluster0.ysjw96t.mongodb.net/?tls=true&tlsInsecure=true
+
+
+mongodb+srv://mondaljnanesh:Mondal%40123@cluster0.ysjw96t.mongodb.net/Food?tls=true&tlsInsecure=true&retryWrites=true&w=majority&appName=Cluster0
+
+
+https://www.youtube.com/watch?v=enOsPhp2Z6Q&ab_channel=CodeWithYousaf
+
+1) npm init vite
+	Project Name:
+	Recat
+	JavaScript
+2) cd Client
+3) npm install
+4) npm install bootstrap axios react-router-dom
+5) remove index.css
+6) main.jsx remove import index.css
+7) App.jsx remove all code in return and remove import  logos.svg
+8) App.css remove all code inside it.
+
+Start code in App.jsx
+9) import {BrowserRouter,Routes,Route} from react-router-dom
+10) npm run dev
+
+
+11) add folder server
+
+12) cd server
+13) npm init -y
+14) npm install express mongooose cors nodemon
+15) add new file index.js
+16) in package.json script-> add "start": "nodemon index.js"
+17) start coding in index.js
+18) npm start
+19) add folder models in Server
+20) add User.js add schema in it.
